@@ -1,10 +1,10 @@
 // Databricks notebook source
-dbutils.notebook.run("./NotebookParam", 30, Map("foo" -> "Scala Code"))
+dbutils.notebook.run("./NotebookParam", 30, Map("foo" -> "My Scala Code"))
 
 // COMMAND ----------
 
 // MAGIC %py
-// MAGIC dbutils.notebook.run("NotebookParam", 60, {"foo": "Python Code"})
+// MAGIC dbutils.notebook.run("NotebookParam", 60, {"foo": "My Python Code"})
 
 // COMMAND ----------
 
